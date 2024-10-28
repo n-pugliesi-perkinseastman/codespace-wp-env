@@ -1,0 +1,6 @@
+node_modules/
+vendor/
+wp-env-home/
+test-results/
+.wp-env.override.json
+package-lock.json

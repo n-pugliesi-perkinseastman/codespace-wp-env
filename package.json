@@ -1,0 +1,15 @@
+{
+  "name": "wordpress-env-starter",
+  "version": "1.0.0",
+  "description": "codespace to host a WordPress dev environment",
+  "main": "index.js",
+  "scripts": {
+    "wp-env": "wp-env",
+    "up": "WP_ENV_HOME=wp-env-home wp-env start",
+    "test": "echo \"Error: no test specified\" && exit 1"  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@wordpress/env": "^10.10.0"
+  }
+}
